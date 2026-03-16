@@ -38,7 +38,7 @@ export const Projects = () => {
                     <p className="text-gray-400 mb-4 ">
                         Designed the backend architecture of a real-time chat application using Node.js, Express, and WebSockets to manage user connections and enable seamless real-time messaging.
                     </p>
-                    <div>
+                    <div className="flex flex-wrap gap-2 mb-4">
                         {["React", "Node.js", "WebSocket"].map((tech,key) => (
                         <span
                         key={key}
@@ -59,7 +59,7 @@ export const Projects = () => {
                     <p className="text-gray-400 mb-4 ">
                         Microservice - Backend authentication system built with Node.js, Express, and JWT for secure user login, registration.
                     </p>
-                    <div>
+                    <div className="flex flex-wrap gap-2 mb-4">
                         {["Express.js", "Node.js", "JWT","bcrypt","MySQL"].map((tech,key) => (
                         <span
                         key={key}
@@ -80,7 +80,7 @@ export const Projects = () => {
                     <p className="text-gray-400 mb-4 ">
                        Built Twitter-like microblogging features including 250-character posts, hashtags, likes, comments, and nested comments-on-comments.
                     </p>
-                    <div>
+                    <div className="flex flex-wrap gap-2 mb-4">
                         {[ "Node.js", "passport", "MongoDB", "bcrypt", "JWT"].map((tech,key) => (
                         <span
                         key={key}
