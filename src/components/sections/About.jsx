@@ -4,7 +4,7 @@ import { RevealOnScroll } from "../RevealOnScroll";
 export const About = () => {
 
     const frontendSkills = ["React", "TailwindCSS", "HTML", "CSS", "JavaScript"];
-    const backendSkills = ["Node.js", "Express.js", "MongoDB", "MySQL", "WebSockets"];
+    const backendSkills = ["Node.js", "Express.js", "MongoDB", "MySQL", "WebSockets", "JWT"];
 
     return <section id="about" className="min-h-screen flex justify-center items-center py-20">
 
@@ -17,7 +17,8 @@ export const About = () => {
             <div className="rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
 
                 <p className="text-gray-300 mb-6">
-                    I’m a Full-Stack Developer focused on building modern web applications using React, Node.js, and MongoDB while continuously improving my problem-solving skills through DSA.
+                    I'm a Computer Science student at IIIT Ranchi specializing in Data Science and AI.
+                    Started with competitive coding, which built my problem-solving skills, and later evolved into building full-stack applications using React, Node.js, and other technologies.
                 </p>
            
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
