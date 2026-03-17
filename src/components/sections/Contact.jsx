@@ -29,12 +29,14 @@ export const Contact = () => {
 
     return (
         <section id="contact"
-        className="min-h-screen flex items-center justify-center py-20 "  >
+        className=" w-full  min-h-screen flex items-center justify-center py-30 px-4"  >
             <RevealOnScroll>
-                <div className="px-4 w-full max-w-3xl mx-auto">
+                <div className=" w-full mx-auto">
 
-                    <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-500 bg-clip-text text-transparent">Get In Touch</h2>
-                    <form className="space-y-6" onSubmit={handleSubmit} action="">
+                    <h2 className=" text-3xl font-bold mb-8 bg-gradient-to-r
+                     from-blue-500 to-cyan-500 bg-clip-text text-transparent"
+                     >Get In Touch</h2>
+                    <form className="space-y-6 md:w-xl" onSubmit={handleSubmit} action="">
                         <div className="relative">
                             <input type="text"
                              id="name"
