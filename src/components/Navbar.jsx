@@ -32,6 +32,9 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
                     <a href="#contact" className="text-gray-300 hover:text-white transition-colors">
                         Contact
                     </a>
+                    <a href="/ProtfolioReact/resume.pdf" download={"Sardar_Jasprit_Singh.pdf"}  className="text-gray-300 hover:text-white transition-colors">
+                        Resume
+                    </a>
                 </div>
 
             </div>

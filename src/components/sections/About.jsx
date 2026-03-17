@@ -51,25 +51,42 @@ export const About = () => {
 
                 </div>
             </div>
-            {/* <div className="grid grid-cols-1 
-            // grid-cols-2
-             gap-6 mt-8">
+            <div className="grid  grid-cols-1 md:grid-cols-2 gap-6 mt-8">
                 <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
                 <h3 className="text-xl font-bold mb-4"> Education </h3>
                 <ul className="list-disc list-inside text-gray-300 space-y-2">
                     <li>
-                        <strong>B.tech in CSE specialization in Data Science and Artificial Intelligence
+                        <strong>B.tech in Computer Science and Engineering specialization in Data Science and Artificial Intelligence
                         </strong> - IIIT Ranchi {"2023-Present"}
                     </li>
                     <li>
-                        <strong>B.tech in Computer Science and Engineering specialization in Data Science and Artificial Intelligence
-                        </strong> - IIIT Ranchi {"2023-Present"}
+                        <strong>The current CGPA is :-  <span className="font-bold">8.54</span> 
+                        </strong>
                     </li>
                 </ul>
 
                 </div>
+                <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+                <h3 className="text-xl font-bold mb-4"> Achievements </h3>
+                <ul className="list-disc list-inside text-gray-300 space-y-2 ">
+                    <li>
+                        <strong> Solved 500+ problems across coding platforms. 
+                        </strong> 
+                    </li>
+                    <li>
+                        <strong>  CodeChef — Peak Rating 1487.
+                        </strong> 
+                    </li>
+                    <li>
+                        <strong> Peak Rating 1666 on LeetCode.
+                        </strong> 
+                    </li>
+                    
+                </ul>
 
-            </div> */}
+                </div>
+
+            </div>
         </div>
         </RevealOnScroll>
     </section>
